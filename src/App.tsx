@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
+import { ExploreTopBooks } from './layouts/HomePage/ExploreTopBooks';
 import { Navbar } from './layouts/navbarAndFooter/navbar';
 
 function App() {
   return (
-<Navbar/>
+    <div>
+      <Navbar />
+      <ExploreTopBooks />
+    </div>
   );
 }
 
